@@ -58,7 +58,7 @@ if ($result->num_rows > 0) {
 
     // Output data of each row
     while ($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["name"] . "</td><td>" . $row["age"] . "</td><td>" . $row["email"] . "</td><td>" . $row["score"] . "</td></tr>";
+        echo "<tr><td>" . $row["Name"] . "</td><td>" . $row["Age"] . "</td><td>" . $row["Email"] . "</td><td>" . $row["Score"] . "</td></tr>";
     }
 
     echo "</table>";
